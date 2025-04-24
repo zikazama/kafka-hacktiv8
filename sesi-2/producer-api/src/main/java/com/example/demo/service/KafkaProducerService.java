@@ -12,8 +12,8 @@ public class KafkaProducerService {
         this.kafkaTemplate = kafkaTemplate;
     }
 
-    public void sendMessage(String message) {
+    public void sendMessage(String message, String key) {
         String topic = "my_topic";  // Specify the topic name here
-        kafkaTemplate.send(topic, message);  // Send the message to the topic
+        kafkaTemplate.send(topic, key, message);  // Send the message with key
     }
 }
