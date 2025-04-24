@@ -1,0 +1,3 @@
+com/example/demo/service/KafkaMessageListener.class
+com/example/demo/configuration/KafkaConsumerConfig.class
+com/example/demo/KafkaConsumerApplication.class
