@@ -1,0 +1,4 @@
+com/example/demo/configuration/KafkaProducerConfig.class
+com/example/demo/KafkaProducerApplication.class
+com/example/demo/controller/MessageController.class
+com/example/demo/service/KafkaProducerService.class
